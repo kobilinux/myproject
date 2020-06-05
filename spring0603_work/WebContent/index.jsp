@@ -15,7 +15,7 @@
 <body>
 <div id="wrap">
 	<img src="resources/image/iu1.jpg"><br>
-	<a href="index">메인이동</a>
+	<a href="index">메인이동11</a>
 </div>
 </body>
 </html>
