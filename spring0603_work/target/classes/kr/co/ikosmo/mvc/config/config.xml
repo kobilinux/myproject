@@ -4,7 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<typeAliases>
-
+		<typeAlias type="kr.co.ikosmo.mvc.vo.MeMMemberVO" alias="mmvo"/>
 	    <typeAlias type="kr.co.ikosmo.mvc.vo.PageVO" alias="pvo"/>
 		<typeAlias type="kr.co.ikosmo.mvc.vo.MemberDemoVO" alias="mem"/>
 		<typeAlias type="kr.co.ikosmo.mvc.vo.TBoardVO" alias="tdto"/>
