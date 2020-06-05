@@ -15,7 +15,8 @@
 <body>
 <div id="wrap">
 	<img src="resources/image/iu1.jpg"><br>
-	<a href="index">메인이동1111한글입닝다ㅎㅎㅎㅎㅎㅎ</a>
+	<a href="index">메인이동1111한글입닝다ㅎㅎㅎㅎㅎ</a>
+	<h2>한글테스트입니다.</h2>
 </div>
 </body>
 </html>
