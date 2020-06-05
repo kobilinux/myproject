@@ -1,0 +1,10 @@
+create table memberdemo(
+num number primary key,
+id varchar2(10),
+pwd varchar2(10),
+uname varchar2(34),
+rdate date,
+constraint memberdemo_id_uq unique(id));
+create sequence memberdemo
+increment by 1
+start with 1;

@@ -1,0 +1,17 @@
+create table survey(
+num number primary key,
+sub varchar2(100),
+code number,
+sdate date);
+create sequence survey_seq
+increment by 1
+start with 1;
+
+
+create table surveycontent(
+subtype char(5),
+subcode number,
+surveytitle varchar2(100),
+surveycnt number,
+constraint surveycontent_subcode_fk foreign key(subcode)
+references survey(num));
